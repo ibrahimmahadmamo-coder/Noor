@@ -1,0 +1,53 @@
+{
+  "name": "railway-docs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start --port ${PORT-3000}",
+    "clean": "rm -rf .next",
+    "tsc": "tsc -p ."
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "^0.0.1",
+    "@radix-ui/react-scroll-area": "^0.0.1",
+    "@tailwindcss/typography": "^0.3.1",
+    "dayjs": "^1.9.7",
+    "fuse.js": "^6.4.6",
+    "next": "10.0.3",
+    "next-seo": "^4.17.0",
+    "next-themes": "^0.0.10",
+    "prismjs": "^1.22.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-feather": "^2.0.9",
+    "react-syntax-highlighter": "^15.4.3",
+    "styled-components": "^5.2.1",
+    "theme-custom-properties": "^1.0.0",
+    "tinykeys": "^1.1.1",
+    "twin.macro": "^2.0.8",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.11",
+    "@types/react": "^17.0.0",
+    "@types/react-syntax-highlighter": "^13.5.0",
+    "@types/styled-components": "^5.1.7",
+    "autoprefixer": "^10.1.0",
+    "next-compose-plugins": "^2.2.1",
+    "next-mdx-enhanced": "^5.0.0",
+    "postcss": "^8.2.1",
+    "prettier": "^2.2.1",
+    "remark-autolink-headings": "^6.0.1",
+    "remark-slug": "^6.0.0",
+    "tailwindcss": "^2.0.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.2"
+  },
+  "babelMacros": {
+    "twin": {
+      "preset": "styled-components"
+    }
+  }
+}
